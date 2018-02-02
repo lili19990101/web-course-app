@@ -2,6 +2,8 @@
 
 ## How to install and run
 
+Make sure you have installed Node.js on your local machine.
+
 Run the following commands
 
 ```
