@@ -1,0 +1,12 @@
+.jr-top-nav {
+  background-color: #4286f4;
+  border: 1px solid #4286f4;
+}
+
+.jr-top-nav .navbar-nav > li > a {
+  color: rgb(236, 230, 230);
+}
+
+.jr-top-nav .navbar-brand {
+  color: #fff;
+}

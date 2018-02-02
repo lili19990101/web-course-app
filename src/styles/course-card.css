@@ -1,0 +1,51 @@
+.jk-course-card {
+  background-color: #fff;
+  margin-top: 20px;
+  height: 300px;
+  border-radius: 0;
+  border: 0;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px;
+}
+
+.jk-course-card__font {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.jk-course-card__font > div {
+  color: rgb(141, 140, 140);
+}
+
+.jk-course-card__flex {
+  display: flex;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.jk-course-card__button-group {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+}
+
+.jk-course-card__name {
+  margin-left: 5px;
+  color: rgb(141, 140, 140);
+  line-height: 40px;
+  height: 40px;
+}
+
+.jk-course-card__code {
+  font-style: italic;
+}
+
+.jk-course-card__introduction {
+  color: #777;
+  height: 55px;
+}
+
+.jk-course-card > img {
+  width: 100%;
+  height: 50%;
+}
