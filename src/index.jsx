@@ -9,7 +9,7 @@ import './styles';
 
 import Shell from './App/Shell';
 
-axios.defaults.baseURL = 'http://52.24.167.100';
+axios.defaults.baseURL = 'http://18.219.55.135';
 
 ReactDOM.render(
   <Router>

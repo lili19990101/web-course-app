@@ -8,7 +8,7 @@ export default function CourseCard({ course }) {
       <div className="jk-course-card">
         <img src="https://www.techaltum.com/img/web-developent.jpg" />       
         <div className="jk-course-card__flex">  
-          <h3>{course.name}</h3>
+          <h3>{course.name.slice(0,11)}</h3>
           <div style={{ flex: 1 }}>
             <div className="jk-course-card__button-group">
               <Link to={`/courses/${course.id}`} className="btn btn-default">
